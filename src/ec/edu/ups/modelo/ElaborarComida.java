@@ -13,6 +13,7 @@ import ec.edu.ups.interfaz.IElaborar;
  */
 public class ElaborarComida extends ElaborarAlimento{
 
+    //Constructor clase elaborar comida
     public ElaborarComida(IElaborar implementador) {
         this.setImplementador(implementador);
     }
